@@ -3,7 +3,7 @@ Given the complexity and variety of technologies used in your HealthBuddyApp pro
 ```markdown
 # HealthBuddyApp
 
-(https://github.com/Gagan47raj/HealthBuddyApp/blob/master/4.jpg) 
+![HealthBuddyApp](https://github.com/Gagan47raj/HealthBuddyApp/blob/master/4.jpg)
 
 HealthBuddyApp is an integrated healthcare system designed to provide comprehensive health and wellness solutions. This project combines multiple technologies to offer a seamless experience for users to predict diseases, find medications, purchase pharmaceuticals, and monitor their health.
 
