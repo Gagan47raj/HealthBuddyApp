@@ -132,11 +132,3 @@ We welcome contributions to HealthBuddyApp! Please fork the repository and submi
 ## License
 
 This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
-```
-
-### Notes:
-- Replace placeholder image URLs with actual links to your screenshots or banners.
-- Adjust the project structure and descriptions to match your actual implementation and repositories.
-- Ensure all installation steps and commands are correct based on your specific setup.
-
-This structure will help users understand the purpose, setup, and usage of your HealthBuddyApp project clearly and efficiently.
