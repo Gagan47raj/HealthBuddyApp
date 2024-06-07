@@ -1,4 +1,4 @@
-Given the complexity and variety of technologies used in your HealthBuddyApp project, it’s important to structure your README to clearly describe each component and how they interconnect to form a comprehensive healthcare system. Here's a detailed and visually appealing `README.md` for your project:
+
 
 
 # HealthBuddyApp
