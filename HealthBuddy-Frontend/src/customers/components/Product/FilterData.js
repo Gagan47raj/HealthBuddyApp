@@ -1,0 +1,136 @@
+export const filters = [
+  {
+    id: "category",
+    name: "Diesease",
+    options: [
+      { value: "acne", label: "Acne" },
+      { value: "aids", label: "AIDS" },
+      { value: "alcoholic hepatitis", label: "Alcoholic hepatitis" },
+      { value: "Allergy", label: "Allergy" },
+      { value: "arthritis", label: "Arthritis" },
+      { value: "bronchial asthma", label: "Bronchial Asthma" },
+      { value: "cervical spondylosis", label: "Cervical spondylosis" },
+      { value: "chicken pox", label: "Chicken pox" },
+      { value: "chronic cholestasis", label: "Chronic cholestasis" },
+      { value: "Common Cold", label: "Common Cold" },
+      { value: "dengue", label: "Dengue" },
+      { value: "diabetes", label: "Diabetes" },
+      {
+        value: "dimorphic hemmorhoids (piles)",
+        label: "Dimorphic hemmorhoids (piles)",
+      },
+      { value: "drug reaction", label: "Drug Reaction" },
+      { value: "fungal infection", label: "Fungal infection" },
+      { value: "gastroenteritis", label: "Gastroenteritis" },
+      { value: "gerd", label: "GERD" },
+      { value: "heart attack", label: "Heart attack" },
+      { value: "hepatitis a", label: "Hepatitis A" },
+      { value: "hepatitis b", label: "Hepatitis B" },
+      { value: "hepatitis c", label: "Hepatitis C" },
+      { value: "hepatitis d", label: "Hepatitis D" },
+      { value: "hepatitis e", label: "Hepatitis E" },
+      { value: "hyperthyroidism", label: "Hyperthyroidism" },
+      { value: "hypertension", label: "Hypertension" },
+      { value: "hypoglycemia", label: "Hypoglycemia" },
+      { value: "hypothyroidism", label: "Hypothyroidism" },
+      { value: "impetigo", label: "Impetigo" },
+      { value: "jaundice", label: "Jaundice" },
+      { value: "malaria", label: "Malaria" },
+      { value: "migraine", label: "Migraine" },
+      { value: "osteorthristis", label: "Osteoarthristis" },
+      {
+        value: "paralysis (brain hemorrhage)",
+        label: "Paralysis (brain hemorrhage)",
+      },
+      { value: "peptic ulcer disease", label: "Peptic ulcer disease" },
+      { value: "psoriasis", label: "Psoriasis" },
+      { value: "pneumonia", label: "Pneumonia" },
+      { value: "typhoid", label: "Typhoid" },
+      { value: "urinary tract infection", label: "Urinary tract infection" },
+      {
+        value: "(vertigo) paroxysmal positional vertigo",
+        label: "(Vertigo) Paroxysmal Positional Vertigo",
+      },
+      { value: "varicose veins", label: "Varicose veins" },
+    ],
+  },
+  {
+    id: "severity",
+    name: "Severity Level",
+    options: [
+      { value: "mild", label: "Mild" },
+      { value: "moderate", label: "Moderate" },
+      { value: "severe", label: "Severe" },
+      { value: "critical", label: "Critical" },
+    ],
+  },
+
+  {
+    id: "medicineType",
+    name: "Medicine Type",
+    options: [
+      { value: "tablet", label: "Tablet" },
+      { value: "capsule", label: "Capsule" },
+      { value: "injection", label: "Injection" },
+      { value: "cream", label: "Cream" },
+      { value: "ointment", label: "Ointment" },
+      { value: "gel", label: "Gel" },
+      { value: "syrup", label: "Syrup" },
+      { value: "suspension", label: "Suspension" },
+      { value: "powder", label: "Powder" },
+      { value: "suppository", label: "Suppository" },
+      { value: "drops", label: "Drops" },
+      { value: "inhaler", label: "Inhaler" },
+      { value: "patch", label: "Patch" },
+      { value: "lozenge", label: "Lozenge" },
+      { value: "spray", label: "Spray" },
+      { value: "solution", label: "Solution" },
+      { value: "lotion", label: "Lotion" },
+      { value: "foam", label: "Foam" },
+      { value: "shampoo", label: "Shampoo" },
+      { value: "granules", label: "Granules" },
+      { value: "emulsion", label: "Emulsion" },
+    ],
+  },
+
+  {
+    id: "rating",
+    name: "Rating",
+    options: [
+      { value: "1", label: "1" },
+      { value: "2", label: "2" },
+      { value: "3", label: "3" },
+      { value: "4", label: "4" },
+      { value: "5", label: "5" },
+    ],
+  },
+
+  {
+    id: "availability",
+    name: "Availability",
+    options: [
+      { value: "In Stock", label: "In Stock" },
+      { value: "Out of Stock", label: "Out of Stock" },
+    ],
+  },
+];
+
+export const singleFilter = [
+  {
+    id: "price",
+    name: "Price",
+    options: [
+      { value: "50-100", label: "50-100" },
+      { value: "100-200", label: "100-200" },
+      { value: "200-300", label: "200-300" },
+      { value: "300-400", label: "300-400" },
+      { value: "400-500", label: "400-500" },
+      { value: "500-600", label: "500-600" },
+    ],
+  },
+];
+
+export const sortBy = [
+  { name: "Price: Low to High", query: "price_low", current: false },
+  { name: "Price: Hign to Low", query: "price_high", current: false },
+];
