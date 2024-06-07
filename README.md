@@ -1,6 +1,6 @@
 Given the complexity and variety of technologies used in your HealthBuddyApp project, it’s important to structure your README to clearly describe each component and how they interconnect to form a comprehensive healthcare system. Here's a detailed and visually appealing `README.md` for your project:
 
-```markdown
+
 # HealthBuddyApp
 
 ![HealthBuddyApp](https://github.com/Gagan47raj/HealthBuddyApp/blob/master/4.jpg)
@@ -124,11 +124,6 @@ streamlit run app.py
 
 ## Screenshots
 
-![Dashboard](https://example.com/dashboard.png) <!-- Replace with actual screenshot URL -->
-*Dashboard showcasing activity tracking and health insights.*
-
-![Diet Log](https://example.com/diet-log.png) <!-- Replace with actual screenshot URL -->
-*Diet log for monitoring daily nutritional intake.*
 
 ## Contributing
 
@@ -136,7 +131,7 @@ We welcome contributions to HealthBuddyApp! Please fork the repository and submi
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
 ```
 
 ### Notes:
